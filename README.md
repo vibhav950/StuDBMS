@@ -43,3 +43,8 @@ usernames_1, usernames_2
 | Username | varchar(20) | NO   | PRI | NULL    |       |
 | Pass     | char(32)    | YES  |     | NULL    |       |
 +----------+-------------+------+-----+---------+-------+
+
+# Changes to be made to client code
+
+Complete user directory path.
+Complete media dependancy paths.
