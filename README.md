@@ -6,12 +6,12 @@ Grade 12 Finals Project (Python/MySQL)
 
 # Setup instructions
 
-1. Create the following structures in the respective database with the structures mentioned below.
+1. Create the following tables in the respective database with the structures mentioned below.
 2. Tables usernames_1 and usernames_2 hold login data (username and md5 password hash).
 
 # Tables
 +----------------+
-| Tables_in_db |
+| Tables_in_mydb |
 +----------------+
 | 11a_sa1        |
 | 11a_sa2        |
