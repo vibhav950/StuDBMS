@@ -9,7 +9,7 @@ Grade 12 Finals Project (Python/MySQL)
 1. Create the following tables in the respective database with the below structures.
 2. Tables usernames_1 and usernames_2 hold login data (username and md5 password hash).
 
-# MySQL Tables
+## MySQL Tables
 
 |tables          |
 |----------------|
@@ -20,9 +20,9 @@ Grade 12 Finals Project (Python/MySQL)
 | usernames_1    |
 | usernames_2    |
 
-# Table descriptions
+## Table descriptions
 
-11a_sa1, 11a_s12, 11b_sa1, 11b_sa2
+`11a_sa1`, `11a_s12`, `11b_sa1`, `11b_sa2`
 
 | Field     | Type        | Null | Key | Default | Extra |
 |-----------|-------------|------|-----|---------|-------|
@@ -34,14 +34,14 @@ Grade 12 Finals Project (Python/MySQL)
 | Computer  | float(5,2)  | YES  |     | NULL    |       |
 | English   | float(5,2)  | YES  |     | NULL    |       |
 
-usernames_1, usernames_2
+`usernames_1`, `usernames_2`
 
 | Field    | Type        | Null | Key | Default | Extra |
 |----------|-------------|------|-----|---------|-------|
 | Username | varchar(20) | NO   | PRI | NULL    |       |
 | Pass     | char(32)    | YES  |     | NULL    |       |
 
-# Changes to be made to client code
+### Changes to be made to client code
 
-Complete user directory path.
-Complete media dependency paths.
+* Complete user directory path.
+* Complete media dependency paths.
